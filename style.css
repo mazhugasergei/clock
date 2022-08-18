@@ -1,0 +1,309 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: -webkit-fill-available;
+  height: -moz-available;
+  height: fill-available;
+}
+
+body {
+  background: #fff;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.clock {
+  height: 50vh;
+  width: 50vh;
+  border: 1vh solid #6E7582;
+  border-radius: 50%;
+  background: #fff;
+  position: relative;
+}
+.clock .h-marks, .clock .m-marks {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.clock .h-marks div, .clock .m-marks div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+.clock .h-marks div::after, .clock .m-marks div::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 1.8%;
+  height: 7.4%;
+  background: #6E7582;
+  border-radius: 0.3vh;
+}
+.clock .h-marks div:nth-child(1), .clock .m-marks div:nth-child(1) {
+  transform: rotate(calc(1*30deg));
+}
+.clock .h-marks div:nth-child(2), .clock .m-marks div:nth-child(2) {
+  transform: rotate(calc(2*30deg));
+}
+.clock .h-marks div:nth-child(3), .clock .m-marks div:nth-child(3) {
+  transform: rotate(calc(3*30deg));
+}
+.clock .h-marks div:nth-child(4), .clock .m-marks div:nth-child(4) {
+  transform: rotate(calc(4*30deg));
+}
+.clock .h-marks div:nth-child(5), .clock .m-marks div:nth-child(5) {
+  transform: rotate(calc(5*30deg));
+}
+.clock .h-marks div:nth-child(6), .clock .m-marks div:nth-child(6) {
+  transform: rotate(calc(6*30deg));
+}
+.clock .h-marks div:nth-child(7), .clock .m-marks div:nth-child(7) {
+  transform: rotate(calc(7*30deg));
+}
+.clock .h-marks div:nth-child(8), .clock .m-marks div:nth-child(8) {
+  transform: rotate(calc(8*30deg));
+}
+.clock .h-marks div:nth-child(9), .clock .m-marks div:nth-child(9) {
+  transform: rotate(calc(9*30deg));
+}
+.clock .h-marks div:nth-child(10), .clock .m-marks div:nth-child(10) {
+  transform: rotate(calc(10*30deg));
+}
+.clock .h-marks div:nth-child(11), .clock .m-marks div:nth-child(11) {
+  transform: rotate(calc(11*30deg));
+}
+.clock .h-marks div:nth-child(12), .clock .m-marks div:nth-child(12) {
+  transform: rotate(calc(12*30deg));
+}
+.clock .m-marks div::after {
+  width: 0.7%;
+  height: 4.5%;
+}
+.clock .m-marks div:nth-child(1) {
+  transform: rotate(calc(1*6deg));
+}
+.clock .m-marks div:nth-child(2) {
+  transform: rotate(calc(2*6deg));
+}
+.clock .m-marks div:nth-child(3) {
+  transform: rotate(calc(3*6deg));
+}
+.clock .m-marks div:nth-child(4) {
+  transform: rotate(calc(4*6deg));
+}
+.clock .m-marks div:nth-child(5) {
+  transform: rotate(calc(5*6deg));
+}
+.clock .m-marks div:nth-child(6) {
+  transform: rotate(calc(6*6deg));
+}
+.clock .m-marks div:nth-child(7) {
+  transform: rotate(calc(7*6deg));
+}
+.clock .m-marks div:nth-child(8) {
+  transform: rotate(calc(8*6deg));
+}
+.clock .m-marks div:nth-child(9) {
+  transform: rotate(calc(9*6deg));
+}
+.clock .m-marks div:nth-child(10) {
+  transform: rotate(calc(10*6deg));
+}
+.clock .m-marks div:nth-child(11) {
+  transform: rotate(calc(11*6deg));
+}
+.clock .m-marks div:nth-child(12) {
+  transform: rotate(calc(12*6deg));
+}
+.clock .m-marks div:nth-child(13) {
+  transform: rotate(calc(13*6deg));
+}
+.clock .m-marks div:nth-child(14) {
+  transform: rotate(calc(14*6deg));
+}
+.clock .m-marks div:nth-child(15) {
+  transform: rotate(calc(15*6deg));
+}
+.clock .m-marks div:nth-child(16) {
+  transform: rotate(calc(16*6deg));
+}
+.clock .m-marks div:nth-child(17) {
+  transform: rotate(calc(17*6deg));
+}
+.clock .m-marks div:nth-child(18) {
+  transform: rotate(calc(18*6deg));
+}
+.clock .m-marks div:nth-child(19) {
+  transform: rotate(calc(19*6deg));
+}
+.clock .m-marks div:nth-child(20) {
+  transform: rotate(calc(20*6deg));
+}
+.clock .m-marks div:nth-child(21) {
+  transform: rotate(calc(21*6deg));
+}
+.clock .m-marks div:nth-child(22) {
+  transform: rotate(calc(22*6deg));
+}
+.clock .m-marks div:nth-child(23) {
+  transform: rotate(calc(23*6deg));
+}
+.clock .m-marks div:nth-child(24) {
+  transform: rotate(calc(24*6deg));
+}
+.clock .m-marks div:nth-child(25) {
+  transform: rotate(calc(25*6deg));
+}
+.clock .m-marks div:nth-child(26) {
+  transform: rotate(calc(26*6deg));
+}
+.clock .m-marks div:nth-child(27) {
+  transform: rotate(calc(27*6deg));
+}
+.clock .m-marks div:nth-child(28) {
+  transform: rotate(calc(28*6deg));
+}
+.clock .m-marks div:nth-child(29) {
+  transform: rotate(calc(29*6deg));
+}
+.clock .m-marks div:nth-child(30) {
+  transform: rotate(calc(30*6deg));
+}
+.clock .m-marks div:nth-child(31) {
+  transform: rotate(calc(31*6deg));
+}
+.clock .m-marks div:nth-child(32) {
+  transform: rotate(calc(32*6deg));
+}
+.clock .m-marks div:nth-child(33) {
+  transform: rotate(calc(33*6deg));
+}
+.clock .m-marks div:nth-child(34) {
+  transform: rotate(calc(34*6deg));
+}
+.clock .m-marks div:nth-child(35) {
+  transform: rotate(calc(35*6deg));
+}
+.clock .m-marks div:nth-child(36) {
+  transform: rotate(calc(36*6deg));
+}
+.clock .m-marks div:nth-child(37) {
+  transform: rotate(calc(37*6deg));
+}
+.clock .m-marks div:nth-child(38) {
+  transform: rotate(calc(38*6deg));
+}
+.clock .m-marks div:nth-child(39) {
+  transform: rotate(calc(39*6deg));
+}
+.clock .m-marks div:nth-child(40) {
+  transform: rotate(calc(40*6deg));
+}
+.clock .m-marks div:nth-child(41) {
+  transform: rotate(calc(41*6deg));
+}
+.clock .m-marks div:nth-child(42) {
+  transform: rotate(calc(42*6deg));
+}
+.clock .m-marks div:nth-child(43) {
+  transform: rotate(calc(43*6deg));
+}
+.clock .m-marks div:nth-child(44) {
+  transform: rotate(calc(44*6deg));
+}
+.clock .m-marks div:nth-child(45) {
+  transform: rotate(calc(45*6deg));
+}
+.clock .m-marks div:nth-child(46) {
+  transform: rotate(calc(46*6deg));
+}
+.clock .m-marks div:nth-child(47) {
+  transform: rotate(calc(47*6deg));
+}
+.clock .m-marks div:nth-child(48) {
+  transform: rotate(calc(48*6deg));
+}
+.clock .m-marks div:nth-child(49) {
+  transform: rotate(calc(49*6deg));
+}
+.clock .m-marks div:nth-child(50) {
+  transform: rotate(calc(50*6deg));
+}
+.clock .m-marks div:nth-child(51) {
+  transform: rotate(calc(51*6deg));
+}
+.clock .m-marks div:nth-child(52) {
+  transform: rotate(calc(52*6deg));
+}
+.clock .m-marks div:nth-child(53) {
+  transform: rotate(calc(53*6deg));
+}
+.clock .m-marks div:nth-child(54) {
+  transform: rotate(calc(54*6deg));
+}
+.clock .m-marks div:nth-child(55) {
+  transform: rotate(calc(55*6deg));
+}
+.clock .m-marks div:nth-child(56) {
+  transform: rotate(calc(56*6deg));
+}
+.clock .m-marks div:nth-child(57) {
+  transform: rotate(calc(57*6deg));
+}
+.clock .m-marks div:nth-child(58) {
+  transform: rotate(calc(58*6deg));
+}
+.clock .m-marks div:nth-child(59) {
+  transform: rotate(calc(59*6deg));
+}
+.clock .m-marks div:nth-child(60) {
+  transform: rotate(calc(60*6deg));
+}
+.clock .h-hand, .clock .m-hand, .clock .s-hand {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.clock .h-hand div, .clock .m-hand div, .clock .s-hand div {
+  width: 1.5%;
+  height: 50%;
+  background: linear-gradient(to bottom, #555, #555 50%, transparent 50%, transparent);
+}
+.clock .m-hand div {
+  height: 82%;
+}
+.clock .s-hand div {
+  width: 0.7%;
+  height: 82%;
+  background: linear-gradient(to bottom, #BB6464, #BB6464 60%, transparent 60%, transparent);
+}
+.clock .s-hand span {
+  display: block;
+  width: 3%;
+  height: 3%;
+  position: absolute;
+  background: #BB6464;
+  border-radius: 50%;
+}
+
+@media screen and (orientation: portrait) {
+  .clock {
+    height: 50vw;
+    width: 50vw;
+    border-width: 1vw;
+  }
+}/*# sourceMappingURL=style.css.map */
