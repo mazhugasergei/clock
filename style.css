@@ -11,7 +11,9 @@ html {
 
 body {
   background: #fff;
-  height: 100%;
+  height: -webkit-fill-available;
+  height: -moz-available;
+  height: fill-available;
   display: flex;
   justify-content: center;
   align-items: center;

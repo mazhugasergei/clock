@@ -37,7 +37,7 @@ html{
 
 body{
   background: $bg;
-  height: 100%;
+  height: fill-available;
   display: flex;
   justify-content: center;
   align-items: center;
